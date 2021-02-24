@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+i {
+  font-size: 18px;
+  color: #282c35;
+}
+
+i.icon {
+  font-size: 20px;
+}
+
+.footer-brand {
+  font-size: 16px;
+  color: #000000;
+}
+
+.link-active {
+  font-size: 1em;
+  /* font-weight: bold; */
+}
+
+.shadow-hover {
+  transition: 0.3s;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ds-collapse:not(.show) {
+  display: none;
+}
+
+.lh-1{
+  line-height: 1rem !important;
+}
+
+.lh-2{
+  line-height: 1.5rem !important;
+}
+
+.lh-3{
+  line-height: 2rem !important;
+}
+
+.lh-4{
+  line-height: 2.5rem !important;
+}
+
+.lh-5{
+  line-height: 3rem !important;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-color-5f5f5f {
+  color: #5f5f5f;
+}
+
+.font-color-292929 {
+  color: #292929;
+}
+
+.bagian-coming-soon {
+  margin: 18% auto 18%;
+  display: flex;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: bord;
+  width: 880px;
+  max-width: 100%;
+}
+
+/* ------------------------------ */
+
+.bagian-intro {
+  margin: 150px auto 75px;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: bord;
+  width: 880px;
+  max-width: 100%;
+}
+
+.intro-bagian-kiri {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+
+.intro-bagian-kanan {
+  width: 470px;
+  line-height: 1.6em;
+  /* margin-left: auto; */
+  color: #3f4146;
+  margin-top: 12px;
+}
+
+.intro-logo {
+  width: 200px;
+}
+
+.intro-judul {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  margin-bottom: 15px;
+  margin-top: 0;
+  color: #242121;
+}
+
+.intro-info{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #6d7777;
+}
+
+/* ---------------------- */
+
+.h2-about {
+  font-size: 48px;
+  line-height: 50.8px;
+  color: #282c35;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.p-about {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.7px;
+  font-size: 19px;
+  color: #3b4c56;
+}
+
+/* ------------------------------- */
+
+.icon-service {
+  font-size: 48px;
+}
+
+/* ------------------------------- */
+
+.bg-biru-cerah {
+  background-color: #f7f8fc;
+}
+
+.bagian-artikel-list {
+  /* background-color: #f7f8fc; */
+  margin: 40px auto;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 850px;
+  max-width: 100%;
+}
+
+/* -------------------------------- */
+
+.card-portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1.5rem;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card-portfolio:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-portfolio-title {
+  cursor: pointer;
+  outline: 0px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #282c35;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-portfolio-parag {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-portfolio-img {
+  height: 10rem;
+  width: auto;
+  margin-top: 2rem;
+}
+
+img .card-portfolio-image {
+  max-width: 100%;
+  height: auto;
+}
+
+img .card-img-bottom{
+  margin: auto 20px;
+}
+
+.card-img-bottom{
+  transition: 0.1s;
+  border-radius: 2%;
+}
+
+.card-img-bottom:hover{
+  transform: translateY(-2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0%;
+}
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 880px) { 
+  .hp-collapse:not(.show) {
+    display: none;
+  }
+
+  .ds-collapse:not(.show) {
+    display: block;
+  }
+
+  /* --------------------------- */
+
+  .bagian-intro {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    margin: 20px auto;
+  }
+
+  .intro-bagian-kiri {
+    text-align: center;
+    margin: 30px auto;
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .intro-bagian-kanan {
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .intro-judul {
+    font-weight: 500;
+    font-size: 42px;
+  }
+
+  .intro-info {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  /* ---------------------- */
+
+  .h2-about {
+    font-weight: 500;
+    font-size: 42px;
+  }
+
+  .p-about {
+    text-align: center;
+  }
+}
