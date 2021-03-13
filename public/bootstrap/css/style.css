@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body {
+  font-family: 'Livvic', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -85,6 +92,15 @@ i.icon {
 
 /* ------------------------------ */
 
+.mb-10 {
+  margin-bottom: 100em;
+}
+
+.bagian-landing {
+  width: auto;
+  height: 90vh;
+}
+
 .bagian-intro {
   margin: 150px auto 75px;
   display: flex;
@@ -113,12 +129,15 @@ i.icon {
 }
 
 .intro-judul {
-  font-size: 52px;
-  font-weight: 700;
+  font-size: 150px;
+  line-height: 150px;
+  font-weight: 600;
   letter-spacing: -.04em;
   margin-bottom: 15px;
   margin-top: 0;
   color: #242121;
+  letter-spacing: 3px;
+  font-family: 'Livvic', sans-serif;
 }
 
 .intro-info{
@@ -235,51 +254,68 @@ img .card-img-bottom{
   .hp-collapse:not(.show) {
     display: none;
   }
-
+  
+  .md-show {
+    display: none;
+  }
+  
   .ds-collapse:not(.show) {
     display: block;
   }
-
+  
   /* --------------------------- */
-
+  
   .bagian-intro {
     flex-direction: column;
     align-items: center;
     padding: 0 30px;
     margin: 20px auto;
   }
-
+  
   .intro-bagian-kiri {
     text-align: center;
     margin: 30px auto;
     padding-top: 15px;
     width: 100%;
   }
-
+  
   .intro-bagian-kanan {
     text-align: center;
     margin: 10px auto;
     width: 100%;
   }
-
+  
   .intro-judul {
-    font-weight: 500;
-    font-size: 42px;
+    margin-top: 20px;
+    font-size: 5em;
+    line-height: 1em;
+    /* display: none; */
   }
-
+  
   .intro-info {
     font-weight: 400;
     font-size: 18px;
   }
-
+  
   /* ---------------------- */
 
   .h2-about {
     font-weight: 500;
     font-size: 42px;
   }
-
+  
   .p-about {
     text-align: center;
+  }
+
+  .bagian-landing {
+    width: auto;
+    height: 85vh;
+  }
+}
+
+@media screen and (min-width: 880px) { 
+  .sm-show {
+    display: none;
   }
 }
