@@ -9,6 +9,9 @@
                 <li class="nav-item {{ Route::currentRouteNamed('about') ? 'link-active font-weight-bold' : '' }}">
                     <a class="nav-link" href="{{ route('about') }}">About Me</a>
                 </li>
+                <li class="nav-item {{ Route::currentRouteNamed('portfolio') ? 'link-active font-weight-bold' : '' }}">
+                    <a class="nav-link" href="{{ route('portfolio') }}">Work</a>
+                </li>
                 <li class="nav-item {{ Route::currentRouteNamed('source-code') ? 'link-active font-weight-bold' : '' }}">
                     <a class="nav-link" href="{{ route('source-code') }}">Source Code</a>
                 </li>

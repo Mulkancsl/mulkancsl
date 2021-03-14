@@ -31,8 +31,8 @@
                     <li class="nav-item {{ Route::currentRouteNamed('about') ? 'link-active font-weight-bold' : '' }}">
                         <a class="nav-link" href="{{ route('about') }}">About Me</a>
                     </li>
-                    <li class="nav-item {{ Route::currentRouteNamed('source-code') ? 'link-active font-weight-bold' : '' }}">
-                        <a class="nav-link" href="{{ route('source-code') }}">Source Code</a>
+                    <li class="nav-item {{ Route::currentRouteNamed('portfolio') ? 'link-active font-weight-bold' : '' }}">
+                        <a class="nav-link" href="{{ route('portfolio') }}">Work</a>
                     </li>
                     <li class="nav-item {{ Route::currentRouteNamed('blog') ? 'link-active font-weight-bold' : '' }}">
                         <a class="nav-link" href="{{ route('blog') }}">Blog</a>
@@ -65,7 +65,7 @@
             </div>
             <div class="p-2 bd-highlight d-flex justify-content-around">
                 <a class="nav-link text-dark d-inline-flex {{ Route::currentRouteNamed('about') ? 'link-active font-weight-bold' : '' }}" href="{{ route('about') }}">About</a>
-                <a class="nav-link text-dark d-inline-flex {{ Route::currentRouteNamed('source-code') ? 'link-active font-weight-bold' : '' }}" href="{{ route('source-code') }}">Source Code</a>
+                <a class="nav-link text-dark d-inline-flex {{ Route::currentRouteNamed('portfolio') ? 'link-active font-weight-bold' : '' }}" href="{{ route('portfolio') }}">Work</a>
                 <a class="nav-link text-dark d-inline-flex {{ Route::currentRouteNamed('blog') ? 'link-active font-weight-bold' : '' }}" href="{{ route('blog') }}">Blog</a>
             </div>
         </div>
